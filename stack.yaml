@@ -1,0 +1,8 @@
+resolver: lts-6.0
+packages:
+- '.'
+
+extra-include-dirs:
+  - /usr/local/Cellar/snappy/1.1.3/include # mac osx
+extra-lib-dirs:
+  - /usr/local/Cellar/snappy/1.1.3/lib # mac osx
